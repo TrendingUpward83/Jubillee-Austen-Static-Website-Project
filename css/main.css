@@ -1,0 +1,259 @@
+/****** Global Styles ******/
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #5E5D5E;
+    margin: auto;
+
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: auto;
+    /**This rule sets the top and bottom margin at 0. The auto value will make the browser automatically 
+    calculate an even amount of margin on the left and right of your content. **/
+    overflow: auto;
+    /**This overflow rule will make it so the containers holding floating elements will expand to fit their height.**/
+}
+
+p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+/****** Header Styles ******/
+.homepage-hero {
+    background: url('../img/full-background.png') #F9EFEF;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #7B7E54;
+    width: 300px;
+
+    float: left;
+    padding: 65px 65px 25px 25px;
+}
+
+header nav {
+    float: right;
+    text-align: left;
+    padding: 75px 25px 75px 0;
+    width: 750px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding-left: 60px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #727172;
+}
+
+header h2 {
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #817F80;
+    width: 1000px;
+    clear: both;
+    padding-left: 25px;
+}
+
+
+
+
+
+
+
+/****** About Styles ******/
+
+#about .content-wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about h2 {
+    padding-left: 25px;
+    font-size: 36px;
+}
+
+#about p {
+    width: 480px;
+    float: left;
+    padding: 0px 60px 0px 60px;
+}
+
+
+
+
+
+
+/****** Skill Styles ******/
+#skills {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+#skills h2 {
+    padding-top: 115px;
+    padding-bottom: 40px;
+}
+
+#skills .content-wrapper {
+    padding-bottom: 115px;
+}
+
+#skills .content-wrapper .skill-list {
+    width: 400px;
+    float: left;
+
+
+}
+
+#skills .content-wrapper .skill-list p {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+
+/****** Contact Styles ******/
+
+#contact {
+    background: #F9E9E9;
+}
+
+#contact .contact-details h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+#contact-image {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: 12px;
+    width: 450px;
+    height: 300px;
+}
+
+#contact .content-wrapper {
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+}
+
+.contact-details {
+    float: right;
+    width: 500px;
+    text-align: left;
+
+}
+
+#envelope-img {
+
+    margin: auto;
+    float: left;
+    padding-bottom: 0px;
+    height: 24px;
+}
+
+#email-link {
+
+    padding-left: 10px;
+    color: #5E5D5E;
+    text-decoration: none;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+
+
+}
+
+#e-mail {
+
+    height: 40px;
+}
+
+.contact-details ul {
+    padding-inline-start: 0px;
+}
+
+.contact-details ul li {
+    
+    display: inline-block;
+    list-style: none;
+
+    padding-right: 50px;
+}
+
+/****** Projects Page Styles ******/
+
+ /****** Projects Page Header Styles ******/
+
+ .projects-header {
+    background: #F9EFEF ;
+ }
+
+
+ /****** Projects Page Projects Styles ******/
+
+ #projects {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+#projects h2 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#projects .content-wrapper {
+    padding-bottom: 115px;
+}
+
+#projects .content-wrapper .projects-list {
+    width: 400px;
+    float: left;
+
+
+}
+
+#projects .content-wrapper .projects-list p {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.project-image {
+    width: 300px;
+}
